@@ -1,0 +1,37 @@
+{
+    "name": "ts-vue-chart",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --hot"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/t-develop/TS-Vue-Chart.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/t-develop/TS-Vue-Chart/issues"
+    },
+    "homepage": "https://github.com/t-develop/TS-Vue-Chart#readme",
+    "dependencies": {
+        "chart.js": "^2.9.3",
+        "vue": "^2.6.11",
+        "vue-chart": "^2.0.0",
+        "vue-chartjs": "^3.5.0"
+    },
+    "devDependencies": {
+        "@types/chart.js": "^2.9.16",
+        "@types/webpack": "^4.41.6",
+        "css-loader": "^3.4.2",
+        "ts-loader": "^6.2.1",
+        "vue-loader": "^15.9.0",
+        "vue-property-decorator": "^8.4.1",
+        "vue-style-loader": "^4.1.2",
+        "vue-template-compiler": "^2.6.11",
+        "webpack-cli": "^3.3.11"
+    }
+}
