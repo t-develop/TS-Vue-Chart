@@ -71,7 +71,6 @@ export default Vue.extend({
       }
     };
   },
-  mounted: () => {},
   methods: {
     optimize: function() {
       /* 最適化エンジンの実行 */
@@ -118,9 +117,7 @@ export default Vue.extend({
         datasets: varDataSet
       };
     }
-  },
-  computed: {},
-  watch: {}
+  }
 });
 </script>
 
