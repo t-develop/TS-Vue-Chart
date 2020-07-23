@@ -46,7 +46,7 @@ export default Vue.extend({
   components: {
     LineChart
   },
-  data: () => {
+  data: function() {
     return {
       population: 100,
       variable: 10,
@@ -91,7 +91,8 @@ export default Vue.extend({
         dataArray.push(result[i].evaluationValue);
         varDataSet.push({
           data: result[i].variable,
-          lineTension: 0
+          lineTension: 0,
+          pointBackgroundColor:"rgba(255, 0, 0, 1)"
         });
       }
 
