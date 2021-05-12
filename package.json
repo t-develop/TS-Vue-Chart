@@ -18,7 +18,7 @@
     },
     "homepage": "https://github.com/t-develop/TS-Vue-Chart#readme",
     "dependencies": {
-        "chart.js": "^2.9.3",
+        "chart.js": "^2.9.4",
         "vue": "^2.6.11",
         "vue-chart": "^2.0.0",
         "vue-chartjs": "^3.5.0"
